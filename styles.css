@@ -1,0 +1,202 @@
+body {
+  color: #444444;
+  margin: 0;
+}
+
+h2 {
+  color: #d4431f;
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin: 1.57rem 2.7rem;
+}
+
+h3 {
+  color: #4d4d4d;
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 1.57rem 2.7rem;
+}
+
+hr {
+  background-color: #e4e4e4;
+  height: 1px;
+  border: 0;
+  margin-bottom: 2.7rem;
+}
+
+.grey-nav {
+  background-color: #f1f1f1;
+  position: relative;
+}
+.grey-nav img {
+  position: absolute;
+  height: 1.9rem;
+  left: 1rem;
+  top: 1rem;
+}
+
+nav {
+  padding: 1.27rem 1.5rem;
+  text-align: end;
+}
+nav a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #444444;
+  margin-left: 1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+  font-size: 0.85rem;
+  color: #444444;
+  margin-left: 1rem;
+}
+
+.container {
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 500px;
+  text-align: center;
+}
+
+#logo {
+  width: 272px;
+  height: 92px;
+  margin: 1.8rem auto;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+#logo span {
+  color: #4e7ebd;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#search-bar {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0.5rem;
+  /* border: 1px solid rgb(206, 206, 206); */
+  border-radius: 2rem;
+  box-shadow: 0px 1px 11px -3px rgba(78, 78, 78, 0.7);
+}
+#search-bar input {
+  width: 85%;
+  height: 2.8rem;
+  border: 0;
+  outline: none;
+}
+#search-bar #submit-btn {
+  position: absolute;
+  right: 0.2rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  height: 2.9rem;
+  width: 3rem;
+  cursor: pointer;
+  outline: none;
+}
+#search-bar #submit-btn i {
+  font-size: 1.1rem;
+  color: #5a91da;
+}
+
+#search-icon {
+  position: absolute;
+  color: #b9b9b9;
+  font-size: 15px;
+  top: 15px;
+  left: 1rem;
+}
+
+#search-buttons {
+  margin: 1.5rem;
+}
+#search-buttons input {
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  color: #444444;
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+#search-buttons input:hover {
+  border: 1px solid #cecece;
+  box-shadow: 0px 1px 6px -2px rgba(0, 0, 0, 0.25);
+}
+
+table {
+  margin-left: 2.7rem;
+  margin-bottom: 2.7rem;
+  padding: 0;
+}
+table tr td {
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+table tr td input {
+  border: 1px solid #c0c0c0;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  outline: none;
+  margin: 0;
+  width: 500px;
+}
+table tr td input:focus {
+  border-color: #4580ff;
+  box-shadow: inset 0px 0px 8px -6px #000000;
+}
+table tr td #advanced-search-btn {
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+table tr td #advanced-search-btn button {
+  padding: 0.5rem 0.7rem;
+  font-weight: bold;
+  font-size: 0.7rem;
+  background-color: #4c8efb;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  color: white;
+}
+table tr td #advanced-search-btn button:hover {
+  background: linear-gradient(180deg, #4c8efb 0%, #3c74cf 100%);
+  border-color: #265fbd;
+}
+table tr td p {
+  font-size: 0.8rem;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-height: 540px) {
+  .container {
+    margin: auto;
+    margin-top: 8rem;
+    max-width: 500px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 540px) {
+  table, h2, h3 {
+    margin-left: 0.2rem;
+  }
+
+  table tr td p {
+    width: 140px;
+    margin-right: 0.2rem;
+  }
+
+  table tr td input {
+    width: 140px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

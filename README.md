@@ -1,2 +1,13 @@
 # CS50-Search
 Search Project for CS50 Web Programming
+
+---
+
+This was may submission for the first assignment for the CS50 Web Development course.
+
+The task was to recreate the Google Home Page, Image Search, and Advanced Search with CSS and HTML.
+
+---
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XPdDLUyoO-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
