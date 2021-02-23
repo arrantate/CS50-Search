@@ -9,5 +9,6 @@ The task was to recreate the Google Home Page, Image Search, and Advanced Search
 
 ---
 
+The following videos is the website in action, it is timestamped to show each element of the marking criteria.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XPdDLUyoO-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
